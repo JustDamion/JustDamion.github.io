@@ -1,19 +1,19 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: 'https://rjshkhr.github.io/cleanfolio',
-  title: 'JS.',
+  homepage: 'https://justdamion.github.io/',
+  title: 'DS.',
 }
 
 const about = {
   // all the properties are optional - can be left empty or deleted
   name: 'John Smith',
-  role: 'Front End Engineer',
+  role: 'Quality Assurance Engineer',
   description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
+    'As a dedicated Quality Assurance Engineer, I have honed my skills through hands-on experience in building robust and scalable automation scripts. My keen attention to detail and perfectionist mindset enable me to detect issues early, preventing small problems from becoming larger challenges. Passionate about continuous learning, I stay up to date with the fast-paced world of technology to ensure efficiency and innovation in my work. I thrive in collaborative environments and am committed to contributing to team success.',
   resume: 'https://example.com',
   social: {
-    linkedin: 'https://linkedin.com',
-    github: 'https://github.com',
+    linkedin: 'https://www.linkedin.com/in/damionshirkey/',
+    github: 'https://github.com/JustDamion',
   },
 }
 
@@ -49,23 +49,19 @@ const projects = [
 const skills = [
   // skills can be added or removed
   // if there are no skills, Skills section won't show up
-  'HTML',
-  'CSS',
+  'Playwright',
+  'Cypress',
+  'Test Automation',
   'JavaScript',
   'TypeScript',
   'React',
-  'Redux',
-  'SASS',
-  'Material UI',
   'Git',
   'CI/CD',
-  'Jest',
-  'Enzyme',
 ]
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: 'johnsmith@mail.com',
+  email: 'shirkeydamion@gmail.com',
 }
 
 export { header, about, projects, skills, contact }
